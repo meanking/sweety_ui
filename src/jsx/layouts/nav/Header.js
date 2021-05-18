@@ -43,7 +43,7 @@ const Header = ({ onNote }) => {
         <nav className="navbar navbar-expand">
           <div className="collapse navbar-collapse justify-content-between">
             <div className="header-left">
-              <div
+              {/* <div
                 className="dashboard_bar"
                 style={{ textTransform: "capitalize" }}
               >
@@ -52,11 +52,11 @@ const Header = ({ onNote }) => {
                   : finalName.join(" ") === "dashboard dark"
                   ? "Dashboard"
                   : finalName.join(" ")}
-              </div>
+              </div> */}
             </div>
 
             <ul className="navbar-nav header-right">
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <div className="input-group search-area d-xl-inline-flex d-none">
                   <div className="input-group-append">
                     <button className="input-group-text">
@@ -69,9 +69,9 @@ const Header = ({ onNote }) => {
                     placeholder="Search here..."
                   />
                 </div>
-              </li>
+              </li> */}
 
-              <Dropdown
+              {/* <Dropdown
                 as="li"
                 className="nav-item dropdown notification_dropdown "
               >
@@ -319,7 +319,7 @@ const Header = ({ onNote }) => {
                     </div>
                   </PerfectScrollbar>
                 </Dropdown.Menu>
-              </Dropdown>
+              </Dropdown> */}
               <Dropdown as="li" className="nav-item dropdown header-profile">
                 <Dropdown.Toggle
                   variant=""

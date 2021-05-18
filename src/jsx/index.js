@@ -193,7 +193,7 @@ const Markup = () => {
 
   let pagePath = path.split("-").includes("page");
   return (
-    <Router basename="/react/demo">
+    <Router basename="/">
       <div
         id={`${!pagePath ? "main-wrapper" : ""}`}
         className={`${!pagePath ? "show" : "mh100vh"}  ${
