@@ -30,7 +30,7 @@
     z-index: 0;
     transition: all .2s ease;
     @include custommq($max: 1350px) {
-        margin-left: 17rem;
+        // margin-left: 17rem;
     }
 }
 // Bell //
